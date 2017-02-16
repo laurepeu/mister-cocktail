@@ -36,7 +36,11 @@ ruby '2.3.3'
 # gem 'capistrano-rails', group: :development
 gem 'better_errors'
 gem 'binding_of_caller'
-gem 'byebug'
+# gem file 'rails stylesheet'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+gem 'simple_form'
+gem 'autoprefixer-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
